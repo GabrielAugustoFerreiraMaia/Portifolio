@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- FIM ICONS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Portfólio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="interface">
+
+            <!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Experiências</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="mailto:gabrielaugustofmaia@gmail.com">
+                    <button>Contato</button>
+                </a>
+            </div>
+            <!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="mailto:gabrielaugustofmaia@gmail.com">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+        <!--interface-->
+    </header>
+
+    <main>
+        <section id="inicio" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>OI, <span>EU SOU GABRIEL .</span></h1>
+                        <p>👋 Olá! Eu sou o Gabriel Augusto, um entusiasta de tecnologia e inovação com uma paixão por criar soluções digitais excepcionais.</p>
+                        <p>🎓 Sou formado em Sistemas de Informação e atualmente estou cursando uma pós-graduação em Segurança da Informação, uma área que considero fundamental no mundo digital em constante evolução.</p>
+                        <p>💻 Tenho experiência sólida em desenvolvimento web, trabalhando com HTML, CSS e Javascript para criar interfaces intuitivas e atraentes. Além disso, também me aprofundei em Java e Flutter, tecnologias que aprimorei durante meu
+                            percurso na faculdade.</p>
+                        <p>🚀 Estou sempre em busca de novos desafios e oportunidades para aplicar meu conhecimento e habilidades. Meu objetivo é contribuir para projetos inovadores que impulsionem o progresso tecnológico e tragam impacto positivo para a
+                            sociedade.
+                        </p>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!--txt-topo-site-->
+                </div>
+                <!--flex-->
+            </div>
+            <!--interface-->
+        </section>
+        <!--topo-do-site-->
+
+        <section id="especialidades" class="especiliadades">
+            <div class="interface">
+                <h2 class="titulo">TECNOLOGIAS</h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-css3"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-angular"></i>
+                        <h3>Angular</h3>
+                    </div>
+                    <!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-java"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="fa-brands fa-node"></i>
+                        <h3>NodeJS</h3>
+                    </div>
+                    <!--especialidades-box-->
+                </div>
+            </div>
+            <!--interface-->
+        </section>
+        <!--especiliadades-->
+
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>EXPERIÊNCIA <span>PROFISSIONAL</span></h2>
+                        <p>🌟 <strong>Estagiário na Startup Mercadão Food</strong></p>
+                        <p>📅 <strong>Período:</strong> Maio 2021 - Maio 2022</p>
+                        <p>🔧 <strong>Responsabilidades:</strong> Manutenção do código, desenvolvimento e implementação de novas features.</p>
+                        <p>💻 <strong>Tecnologias Utilizadas:</strong> HTML, CSS, JavaScript, Angular, Node.js</p>
+
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/gabriel-augusto-ferreira-maia/"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                            <a href="https://github.com/GabrielAugustoFerreiraMaia"><button><i class="fa-brands fa-github"></i></button></a>
+                        </div>
+                        <!--btn-social-->
+                    </div>
+                    <!--txt-sobre-->
+                </div>
+                <!--flex-->
+            </div>
+            <!--interface-->
+        </section>
+        <!--sobre-->
+
+        <section id="projetos" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/Screenshot_1.png);">
+                        <div class="overlay">Pokedólar</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/Screenshot_2.png);">
+                        <div class="overlay">NeedSports</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/Screenshot_3.png);">
+                        <div class="overlay">API Clientes</div>
+                    </div>
+                </div>
+                <!--flex-->
+            </div>
+            <!--interface-->
+        </section>
+        <!--portfolio-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <!--logo-footer-->
+                    <!--btn-social-->
+                </div>
+            </div>
+            <!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:gabrielaugustofmaia@gmail.com">gabrielaugustofmaia@gmail.com</a></p>
+            </div>
+            <!--line-footer-->
+        </div>
+        <!--interface-->
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+
+</html>
